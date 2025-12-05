@@ -200,6 +200,7 @@ a:hover {
   padding: 5px 10px;
   margin-bottom: 25px;
   font-size: 1rem;
+  resize: none;
 }
 
 .contact .form textarea {
