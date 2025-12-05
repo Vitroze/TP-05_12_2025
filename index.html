@@ -4,6 +4,150 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="left">
+        <img src="logo.png" alt="Logo" class="logo" />
+        <b><span class="title">Atelier CSS</span></b>
+      </div>
+
+      <nav class="navigation">
+        <a href="#home" class="nav-link">Accueil</a>
+        <a href="#about" class="nav-link">Services</a>
+        <a href="#services" class="nav-link">A propos</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <section class="createpage">
+      <div class="description">
+        <h1>Crée ton premier site stylé en CSS</h1>
+        <span>
+          A spanartir d'un simple squelette HTML apprends à construire une page
+          moderne, lisible et responsive
+        </span>
+
+        <div class="buttons">
+          <button>Découvrir les exercices</button>
+          <button>En savoir plus</button>
+        </div>
+      </div>
+
+      <div class="information">
+        <h1>Atelier pratique</h1>
+        <p>
+          7 heures pour comprendre la mise en page, la typographie, les couleurs
+          et Flexbox.
+        </p>
+        <ul>
+          <li>Structure HTML propre</li>
+          <li>CSS organisé</li>
+          <li>Mini-projet final</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="learn">
+      <div class="top">
+        <h1>Ce que tu vas apprendre</h1>
+        <span>
+          Chaque carte ci-dessous représente une étape important de la journée.
+          Tu vas les revoir<br />
+          en détail pendant le cours.
+        </span>
+      </div>
+
+      <div class="listcards">
+        <div class="card">
+          <h1>Base du CSS</h1>
+          <span>
+            Comprendre les sélecteurs, la cascade, la spécificité et les
+            premières propriétés de style.
+          </span>
+          <a href="#" class="learnmore">Exercice 1 et 2</a>
+        </div>
+
+        <div class="card">
+          <h1>Modèle de boite</h1>
+          <span>
+            Maîtriser marges, paddings, bordures et dimensions pour contrôler
+            l'espace de la page.
+          </span>
+          <a href="#" class="learnmore">Exercice 3</a>
+        </div>
+
+        <div class="card">
+          <h1>Flexbox</h1>
+          <span>
+            Créer des mises en page modernes, aligner les éléments, construire
+            des galeries et des layouts.
+          </span>
+          <a href="#" class="learnmore">Exercice 5 et 6</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="approch">
+      <div class="description">
+        <h1>Une approche pas à pas</h1>
+        <span>
+          Nous partons d'un squelette HTML minimal pour aller vers une page
+          complète, structurée, agréable à lire et simple à maintenir.
+          <br /><br />
+          L'objectif n'est pas de faire un site parfait, mais de poser des bases
+          solides que tu pourras réutiliser dans tous tes projets.
+        </span>
+      </div>
+
+      <div class="information">
+        <h1>Méthode</h1>
+        <ul>
+          <li>Découpage visuel de la maquette</li>
+          <li>Structure HTML sémantique</li>
+          <li>Feuille de style CSS unique bien organisée</li>
+          <li>Améliorations progressives (hover, transitions, etc.)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="title">
+        <h1>Contact du formateur</h1>
+        <span
+          >Pour toute question sur le cours ou pour récupérer le code source
+          complet, tu peux contacter le formateur via les canaux habituels de
+          l'école.</span
+        >
+      </div>
+
+      <div class="form">
+        <h1>Formulaire de contact</h1>
+        <form action="#" method="post">
+              <label for="name">Nom :</label>
+              <input type="text" id="name" name="name" required placeholder="Ton nom complet" />
+              <label for="email">Email :</label>
+              <input type="email" id="email" name="email" required placeholder="ton.email@example.com" />
+              <label for="message">Message :</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+                placeholder="Ton message..."
+              ></textarea>
+              <button type="submit" class="btn-primary">
+                Envoyer (fictif)
+              </button>
+          </ul>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <span>© 2025 - Atelier CSS - Première année</span>
+      <span>Ce site est un support pédagogique et ne collecte aucune donnée.</span>
+    </footer>
+  </body>
 </html>

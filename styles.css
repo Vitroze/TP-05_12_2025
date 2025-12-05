@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Navigation */
+header {
+  height: 60px;
+  background-color: #0b7285;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .left .title {
+  color: white;
+  line-height: 60px;
+  margin-left: 20px;
+  font-size: 0.9rem;
+}
+
+header .left {
+  margin: 0 120px;
+}
+
+header .navigation {
+  display: flex;
+  gap: 20px;
+  margin-right: 120px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+}
+
+a:hover {
+  color: rgb(200, 200, 200);
+}
+
+/* First Section */
+.createpage,
+.approch {
+  background-color: #1469a0;
+  color: white;
+  height: 362px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  /* height: 362px;
+  background-color: #1469a0;
+  color: white;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 160px; */
+}
+
+.approch {
+  background-color: #e9f3ff;
+  color: black;
+}
+
+.createpage .description,
+.approch .description {
+  width: 45%;
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.createpage .description .buttons {
+  margin: 10px 0;
+}
+
+.createpage .information,
+.approch .information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 12px;
+  color: black;
+  height: 266px;
+  width: 360px;
+  padding: 0px 25px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.approch .information {
+  width: 505px;
+  height: 235px;
+}
+
+.createpage .description .buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.createpage .description .buttons button {
+  color: white;
+  background-color: transparent;
+  border-radius: 60px;
+  border: 2px solid white;
+  height: 45px;
+  padding: 0 25px;
+
+  /* background-color: white;
+  color: #1469a0;
+  border: 2px solid white;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer; */
+}
+
+.createpage .description .buttons button:hover {
+  background-color: #f59f00;
+  border: 2px solid #f59f00;
+  color: black;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.learn {
+  height: 471px;
+  margin: 60px 120px;
+}
+
+.learn .top span {
+  font-weight: 600;
+}
+
+.learn .listcards {
+  height: 350px;
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  overflow: scroll;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.learn .listcards .card {
+  width: 350px;
+  min-width: 150px;
+  height: 230px;
+  border: 1px solid #d3d3d3;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: column;
+}
+.learn .listcards .card a {
+  text-decoration: none;
+  color: #327285;
+  font-weight: 600;
+  margin-top: auto;
+}
+
+.learn .listcards .card:hover {
+  transform: scale(1.05);
+}
+
+.contact {
+  height: 750px;
+  background-color: #f5f7fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .form {
+  width: 75%;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  gap: 15px;
+  margin-top: 30px;
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact .form input,
+.contact .form textarea {
+  width: 100%;
+  height: 35px;
+  border: 1px solid #d3d3d3;
+  border-radius: 6px;
+  padding: 5px 10px;
+  margin-bottom: 25px;
+  font-size: 1rem;
+}
+
+.contact .form textarea {
+  height: 100px;
+}
+
+.contact button {
+  color: black;
+  background-color: transparent;
+  border-radius: 60px;
+  border: 2px solid black;
+  height: 45px;
+  padding: 0 25px;
+}
+
+.contact button:hover {
+  background-color: #f59f00;
+  border: 2px solid #f59f00;
+  color: black;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+  height: 130px;
+  background-color: #102a43;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
